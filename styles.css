@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url(https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+}
+
+#getLocationButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    transition: 1s;
+}
+
+/* Add some hover effect to the button */
+#getLocationButton:hover {
+    background-color: #0056b3;
+}

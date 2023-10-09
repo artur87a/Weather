@@ -27,6 +27,7 @@ h1{
     cursor: pointer;
     width: 200px;
     transition: 1s;
+    border-radius: 30px;
 }
 
 /* Add some hover effect to the button */

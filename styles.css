@@ -28,9 +28,19 @@ h1{
     width: 200px;
     transition: 1s;
     border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
 }
 
 /* Add some hover effect to the button */
 #getLocationButton:hover {
     background-color: #0056b3;
+}
+
+p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
